@@ -1,0 +1,41 @@
+    <div class="row my-3 pt-3 pb-1 latestjob_block">
+                <div class="col-sm-12 latest-head">
+                    <div class="row mx-4" style="border-bottom: 1px solid #eae6e6;">
+                        <div class="col-sm-6">
+                            <h5 style="font-size: 16px;font-weight: bold;">Latest Jobs</h5>
+                        </div>
+                        <div class="col-sm-6 latest_items text-right">
+                          <ul>
+
+                            <li class="hotnav" *ngFor="let list of jobnavList" routerLink="./{{list}}"  style="cursor: pointer;" >{{list}}</li>
+                           
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 latest-jobs">
+                         <div class="row py-2 mx-4 my-3" style="border: 1px solid #eae6e6;" *ngFor="let latest of latestJob">
+                        <div class="col-sm-1"><img src="{{latest.jobimg_url}}" style="width:55px;height: 55px;border: 1px solid #eae6e6;"></div>
+                        <div class="col-sm-9">
+                            <div><h5 style="margin-bottom:0px;font-size: 16px;color:gray;font-weight: 400;"><b style="color:#000">{{latest.job_post}} @ </b>{{latest.companyname}}</h5></div>
+                             <div style="padding-top:6px">
+                             <span> <i class="fa fa-map-marker" aria-hidden="true"></i> <span class="loaction">{{latest.Place}}</span></span>
+                              <span>  <i class="fa fa-clock-o" aria-hidden="true"></i> <span class="loaction">{{latest.time}}</span></span>
+                                <span> <i class="fa fa-money" aria-hidden="true"></i><span class="loaction"> {{latest.salary}}</span></span>
+                           <span><i class="fa fa-tags" aria-hidden="true"></i><span class="loaction"> {{latest.tagged}}</span></span>
+                          
+                             </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <button   (click)="getAppliedjob(latest)" [ngClass]="(latest.ButtonLabel=='Applied')?'my-class':'my-classdefault'" >{{latest.ButtonLabel}}</button>
+                        </div>
+                         </div>
+                </div>
+            </div>
+              <app-applyjob-input [inputvariable]='appliedjobs' (selectedjob)="emittedSelectedJob($event)" *ngIf="isdisplay"></app-applyjob-input>
+             <div class="row my-3">
+                <img src="./assets/images/advertsment.png" style="margin: 0 auto;">
+            </div>
+              <router-outlet></router-outlet>
+          
+              

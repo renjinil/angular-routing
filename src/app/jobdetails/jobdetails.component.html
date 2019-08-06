@@ -1,0 +1,19 @@
+
+<div class="row">
+<div class="banner my-4 text-center">
+  {{jobdata?.jobdescription?.title}}
+ <p style="color: #adad1b;">{{jobdata.department_name}}</p>
+</div>
+</div>
+<div class="row text-center  py-5 my-5">
+  <h3 class="col-md-12">Our Mission</h3>
+  <p class="col-md-12" style="color:gray">{{jobdata.jobdescription?.ourmission}}</p>
+</div>
+<div class="row text-center company py-3" *ngIf="jobdata.jobdescription?.ourcompany" >
+  <h2 class="col-md-12 py-4">Our Company</h2>
+  <div class="row py-3" *ngFor ="let job of jobdata.jobdescription.ourcompany">
+    <h5 class="col-md-12">{{job.title}}</h5>
+<p class="col-md-12 px-5">{{job.description}}</p>
+  </div>
+</div>
+

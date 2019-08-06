@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+
+.dep{
+    width:25px;
+    height: 25px;
+}
+.latest-head ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.wrapper{
+    background: #e8e8e8;;
+}
+.department_block,.latestjob_block,.workshop_block{
+    background: #fff;
+}
+
+.fa{
+    color:#9c9a9a;
+}
+.loaction{
+font-size: 12px;
+    color: #949393;
+    padding-right: 15px;
+}
+a.nav-link {
+    color:#fff !important;
+    font-size: 16px;
+}
+.router-link-active{
+	font-weight: bold;
+        padding: 10px;
+    border-radius: 4px;
+    background-color: #2974a7;
+}
+
+

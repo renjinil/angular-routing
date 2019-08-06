@@ -1,0 +1,27 @@
+
+<div class="row py-3" >
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <div class="text-center py-4"><img src="{{inputvariable?.jobimg_url}}"/><h4 class="d-inline-block">{{inputvariable?.companyname}}</h4></div>
+<div class="form-group">
+  <label for="exampleInputEmail1">Job Post</label>
+  <input type="text"  class="form-control"  id="exampleInputEmail1" placeholder="{{inputvariable?.job_post}}" disabled="disabled">
+</div>
+<div class="form-group">
+  <label >Company Name</label>
+  <input type="text"  class="form-control" placeholder="{{inputvariable?.companyname}}" disabled="disabled" >
+</div>
+<div class="form-group">
+  <label >Place</label>
+  <input type="text" class="form-control" placeholder="{{inputvariable?.Place}}" disabled="disabled">
+</div>
+<div class="form-group">
+  <label >Tagged Under</label>
+  <input type="text" class="form-control" placeholder="{{inputvariable?.tagged}}" disabled="disabled">
+</div>
+
+
+<button type="button" class="btn btn-primary mx-auto d-block" style="padding: 3px 33px;" (click)="added()" >Apply</button>
+  </div>
+   <div class="col-md-3"></div>
+</div>

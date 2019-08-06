@@ -1,0 +1,25 @@
+   <div class="row my-3 py-3 workshop_block">
+                <div class="col-sm-12">
+                    <div class="row  mx-1" style="border-bottom: 1px solid #eae6e6;">
+                        <div class="col-sm-10">
+                            <h5 style="font-size: 16px;font-weight: bold;">Workshop Training</h5>
+                        </div>
+                        <div class="col-sm-2">
+                            <p class="text-right" style="margin: 3px">See All</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 ">
+                    <div class="row mx-4 my-4 pt-4 worksop_details">
+                            <div class="col-sm-6 " *ngFor="let training of workshopTrainingData" >
+                            <img src="{{training.workshop_img}}" style="width: 70px;height: 65px;">
+                            <h5 style="font-size: 15px;font-weight: bold;padding-top: 10px;">{{training.course_name}}</h5>
+                            <div style="font-size: 15px;text-transform: capitalize;color: #000;font-weight: 400;"><span>Course duration</span>: <span>{{training.course_duration}}</span></div>
+                             <div style="font-size: 12px;padding-top: 10px;color: #93999e;font-weight: bold;"><span>Course Instructor</span>: <span>{{training.course_instructor}}</span></div>
+                              <div style="font-size: 12px;color: #93999e;font-weight: bold;"><span>Course Amount</span>: <span>{{training.course_amount}}</span></div>
+                     </div>
+                    </div>
+                </div>
+
+            </div>
