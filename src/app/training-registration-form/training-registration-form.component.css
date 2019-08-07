@@ -1,0 +1,16 @@
+.text-danger{
+    font-size: 12px;
+}
+.view{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#216a88;
+    margin-bottom: 66px;
+}
+th{
+     color: #216a88;
+    font-size: 14px;
+}
+td{
+    font-size: 12px;
+}

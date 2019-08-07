@@ -7,6 +7,7 @@ import { JobdetailsComponent } from './jobdetails/jobdetails.component';
 import { HotjobComponent } from './hotjob/hotjob.component';
 import { RecentjobsComponent } from './recentjobs/recentjobs.component';
 import { ApplyjobInputComponent } from './applyjob-input/applyjob-input.component';
+import { TrainingRegistrationFormComponent } from './training-registration-form/training-registration-form.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
     ]
   },
   {path:'workshoptraining',component:WorkshoptrainingComponent},
-  {path:'user/:JobId',component:JobdetailsComponent}
+  {path:'user/:JobId',component:JobdetailsComponent},
+  {path:'register',component: TrainingRegistrationFormComponent}
 
   
 ];

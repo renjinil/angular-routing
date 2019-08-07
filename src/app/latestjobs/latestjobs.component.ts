@@ -10,6 +10,7 @@ export class LatestjobsComponent implements OnInit {
   jobnavList : any=[];
   latestJob : any=[];
   appliedjobs:any;
+  responsejob:any;
   isdisplay=false;
   constructor(private jobdata:JobdataService) { }
 
@@ -28,8 +29,9 @@ getAppliedjob(latest){
 emittedSelectedJob(event){
   
   this.jobdata.addAppliedJob(event.id, event).subscribe(response=>{
+    this.responsejob =response;
     this.latestJob.map(item=>{
-      if(item.id==response.id){
+      if(item.id==this.responsejob.id){
         return item.ButtonLabel="Applied";
       }
     });

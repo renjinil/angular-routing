@@ -1,0 +1,106 @@
+<div class="container">
+
+    <div class="row py-3">
+       
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
+         <h4>Training Registration Form</h4 >
+      <form class="py-4" [formGroup]="trainingForm">
+    <div class="form-row ">
+    <div class="form-group col-md-6">
+      <label for="firstname">first name <span class="text-danger">*</span></label>
+      <input type="text" class="form-control" formControlName= "firstname" id="firstname" placeholder="">
+      <span class="text-danger" *ngIf="firstname.touched && firstname.invalid && firstname.errors.required ">firstname is required...</span>
+    </div>
+      <div class="form-group col-md-6">
+      <label for="lastname">Last name</label>
+      <input type="text" class="form-control"  formControlName= "lastname" id="lastname" placeholder="">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="skills">Skills <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" formControlName= "skills" id="skills" placeholder="Html,css">
+     <span class="text-danger" *ngIf=" skills.touched && skills.invalid && skills.errors.required ">Specify your skills...</span>
+  </div>
+      <div class="form-group">
+      <label for="Tarining">Company <span class="text-danger">*</span></label>
+      <select id="Tarining" class="form-control"  formControlName= "company" >
+        <option selected>Choose...</option>
+        <option >Infosys</option>
+         <option >HCL</option>
+          <option >Cognizant</option>
+           <option >TCS</option>
+      </select>
+          <span class="text-danger" *ngIf=" company.touched && company.invalid && company.errors.required ">Select your Company for training...</span>
+    </div>
+    <div formGroupName="address">
+  <div class="form-group">
+    <label for="inputAddress">Address <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="inputAddress" formControlName= "address" placeholder="1234 Main St">
+      <span class="text-danger" *ngIf=" address.touched && address.invalid && address.errors.required ">Please enter your Address...</span>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input type="text" class="form-control" id="inputCity" formControlName= "city" placeholder="City"> 
+        <span class="text-danger" *ngIf=" city.touched && city.invalid && city.errors.required ">Please enter your City...</span>
+    </div>
+     <div class="form-group col-md-6">
+      <input type="text" class="form-control" id="postal" formControlName= "postal" placeholder="Postal/Zip Code">
+        <span class="text-danger" *ngIf=" postal.touched && postal.invalid && postal.errors.required ">Please enter your Postal code...</span>
+    </div>
+  </div>
+    </div>
+
+      <div class="form-group ">
+      <label for="Tarining">select Training location <span class="text-danger">*</span></label>
+      <select id="Tarining" class="form-control" formControlName= "training_location">
+        <option selected>Choose...</option>
+        <option>Kochi</option>
+         <option>Hydrabad</option>
+          <option>Chennai</option>
+           <option>kolkatta</option>
+      </select>
+        <span class="text-danger" *ngIf=" training_location.touched && training_location.invalid && training_location.errors.required ">Select your training location...</span>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail4">Email<span class="text-danger">*</span></label>
+      <input type="email" class="form-control" id="inputEmail4" formControlName= "email" placeholder="Email">
+        <span class="text-danger" *ngIf=" email.touched && email.invalid && email.errors.required ">Please enter email address...</span>
+    </div>
+      <div class="form-group">
+      <label for="phonenumber">Phone number <span class="text-danger">*</span></label>
+      <input type="phone" class="form-control" id="phone" placeholder="######" formControlName= "phonenumber">
+        <span class="text-danger" *ngIf="phonenumber.touched && phonenumber.invalid && phonenumber.errors.required ">Please enter your phone number...</span>
+    </div>
+  <button type="button"  class="btn btn-primary mx-auto d-block" (click)="submitForm()">Sign in</button>
+</form>
+      </div>
+    
+      <div class="col-md-5">
+        <div class="text-center view" (click)="viewRegisterdUser()">View Registerd User</div>
+        <div *ngIf="isDisplay" >
+           <table class="table table-hover table-bordered" >
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Comapny</th>
+        <th>Training Location</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+      <tr *ngFor="let user of displayuser">
+        <td>{{user.firstname | titlecase}} {{user.lastname}}</td>
+        <td>{{user.company}}</td>
+        <td>{{user.training_location}}</td>
+          <td>{{user.email}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="color: #216a88;
+    font-size: 14px; cursor:pointer" (click)="hidelist()">Showless...</p>
+        </div>
+      </div>
+    </div>
+</div>

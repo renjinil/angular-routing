@@ -34,5 +34,13 @@ export class JobdataService {
     let options ={ headers: headers };
     return this.http.put('http://localhost:4000/latest_jobs', jobdata, options)  
   }
+    addTrainingUser(userdata){
+      let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    let options ={ headers: headers };
+    return this.http.post('http://localhost:4000/training_user', userdata, options)  
+  }
+   getTrainingUser(){
+    return this.http.get('http://localhost:4000/training_user');
+  }
   
 }

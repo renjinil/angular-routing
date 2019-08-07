@@ -11,6 +11,7 @@ export class ApplyjobInputComponent implements OnInit {
 @Output() selectedjob=new EventEmitter();
 applied:any={};
  latestJob : any=[];
+ responsejob: any;
   constructor(private jobdata:JobdataService) { 
   }
 
@@ -33,8 +34,9 @@ applied:any={};
       };
  
       this.jobdata.addAppliedJob(this.inputvariable.id, this.applied).subscribe(response=>{ 
+        this.responsejob =response;
      this.latestJob.map(item=>{
-       if(item.id==response.id){
+       if(item.id==this.responsejob.id){
         return item.ButtonLabel="Applied";
        }
      })
