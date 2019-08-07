@@ -68,11 +68,13 @@
         <span class="text-danger" *ngIf=" email.touched && email.invalid && email.errors.required ">Please enter email address...</span>
     </div>
       <div class="form-group">
+        {{phonenumber.errors |json}}
       <label for="phonenumber">Phone number <span class="text-danger">*</span></label>
       <input type="phone" class="form-control" id="phone" placeholder="######" formControlName= "phonenumber">
         <span class="text-danger" *ngIf="phonenumber.touched && phonenumber.invalid && phonenumber.errors.required ">Please enter your phone number...</span>
+         <span class="text-danger" *ngIf="phonenumber.errors.maxlength">Please enter your 10 digitphone number...</span>
     </div>
-  <button type="button"  class="btn btn-primary mx-auto d-block" (click)="submitForm()">Sign in</button>
+  <button type="button"  [disabled]="trainingForm.invalid" class="btn btn-primary mx-auto d-block" (click)="submitForm()">Sign in</button>
 </form>
       </div>
     
