@@ -9,17 +9,17 @@
     <div class="form-row ">
     <div class="form-group col-md-6">
       <label for="firstname">first name <span class="text-danger">*</span></label>
-      <input type="text" class="form-control" formControlName= "firstname" id="firstname" placeholder="">
+      <input type="text" class="form-control" formControlName= "firstname" id="firstname" placeholder="" autocomplete="off">
       <span class="text-danger" *ngIf="firstname.touched && firstname.invalid && firstname.errors.required ">firstname is required...</span>
     </div>
       <div class="form-group col-md-6">
       <label for="lastname">Last name</label>
-      <input type="text" class="form-control"  formControlName= "lastname" id="lastname" placeholder="">
+      <input type="text" class="form-control"  formControlName= "lastname" id="lastname" placeholder="" autocomplete="off">
     </div>
   </div>
   <div class="form-group">
     <label for="skills">Skills <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" formControlName= "skills" id="skills" placeholder="Html,css">
+    <input type="text" class="form-control" formControlName= "skills" id="skills" placeholder="Html,css" autocomplete="off">
      <span class="text-danger" *ngIf=" skills.touched && skills.invalid && skills.errors.required ">Specify your skills...</span>
   </div>
       <div class="form-group">
@@ -36,16 +36,16 @@
     <div formGroupName="address">
   <div class="form-group">
     <label for="inputAddress">Address <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" id="inputAddress" formControlName= "address" placeholder="1234 Main St">
+    <input type="text" class="form-control" id="inputAddress" formControlName= "address" placeholder="1234 Main St" autocomplete="off">
       <span class="text-danger" *ngIf=" address.touched && address.invalid && address.errors.required ">Please enter your Address...</span>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <input type="text" class="form-control" id="inputCity" formControlName= "city" placeholder="City"> 
+      <input type="text" class="form-control" id="inputCity" formControlName= "city" placeholder="City" autocomplete="off"> 
         <span class="text-danger" *ngIf=" city.touched && city.invalid && city.errors.required ">Please enter your City...</span>
     </div>
      <div class="form-group col-md-6">
-      <input type="text" class="form-control" id="postal" formControlName= "postal" placeholder="Postal/Zip Code">
+      <input type="text" class="form-control" id="postal" formControlName= "postal" placeholder="Postal/Zip Code" autocomplete="off">
         <span class="text-danger" *ngIf=" postal.touched && postal.invalid && postal.errors.required ">Please enter your Postal code...</span>
     </div>
   </div>
@@ -64,15 +64,15 @@
     </div>
     <div class="form-group">
       <label for="inputEmail4">Email<span class="text-danger">*</span></label>
-      <input type="email" class="form-control" id="inputEmail4" formControlName= "email" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail4" formControlName= "email" placeholder="Email" autocomplete="off">
         <span class="text-danger" *ngIf=" email.touched && email.invalid && email.errors.required ">Please enter email address...</span>
     </div>
       <div class="form-group">
-        {{phonenumber.errors |json}}
+    
       <label for="phonenumber">Phone number <span class="text-danger">*</span></label>
-      <input type="phone" class="form-control" id="phone" placeholder="######" formControlName= "phonenumber">
+      <input type="phone" class="form-control" id="phone" placeholder="######" maxlength="10" formControlName= "phonenumber" autocomplete="off">
         <span class="text-danger" *ngIf="phonenumber.touched && phonenumber.invalid && phonenumber.errors.required ">Please enter your phone number...</span>
-         <span class="text-danger" *ngIf="phonenumber.errors.maxlength">Please enter your 10 digitphone number...</span>
+      
     </div>
   <button type="button"  [disabled]="trainingForm.invalid" class="btn btn-primary mx-auto d-block" (click)="submitForm()">Sign in</button>
 </form>

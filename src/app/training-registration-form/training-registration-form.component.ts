@@ -64,18 +64,24 @@ trainingForm=this.fb.group({
 
 
 submitForm(){
-  console.log(this.trainingForm.value);
+
   this.data.addTrainingUser(this.trainingForm.value).subscribe(response=>{
-    console.log(response);
   }) 
+    // this.data.getTrainingUser().subscribe(response=>{
+    //   console.log(response);
+    //   this.displayuser=response;
+    // })
+     alert("successfully submited");
+     this.viewRegisterdUser();
+     this.trainingForm.reset();
 }
 viewRegisterdUser(){
   this.isDisplay=true;
    this.data.getTrainingUser().subscribe(response=>{
-      console.log(response);
       this.displayuser=response;
     })
 }
+
 hidelist(){
   this.isDisplay=false;
 }
