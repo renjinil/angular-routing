@@ -12,6 +12,7 @@ export class TrainingRegistrationFormComponent implements OnInit {
   constructor(private fb:FormBuilder,private data:JobdataService) { }
  displayuser:any=[];
  isDisplay:boolean;
+ 
   ngOnInit() {
     this.data.getTrainingUser().subscribe(response=>{
       console.log(response);
@@ -31,8 +32,15 @@ trainingForm=this.fb.group({
     postal:['',Validators.required]
   }),
   training_location:['',Validators.required],
-  email:['',Validators.required],
-  phonenumber:['',[Validators.required,Validators.maxLength(10)]]
+  email:['',[
+    Validators.required,
+     Validators.email
+    ]],
+  phonenumber:['',[
+    Validators.required 
+    // Validators.maxLength(10),
+    // Validators.pattern(/^[6-9]\d{9}$/)
+    ]]
 });
  get firstname() {
   return this.trainingForm.get('firstname');
@@ -61,7 +69,7 @@ trainingForm=this.fb.group({
  get phonenumber() {
   return this.trainingForm.get('phonenumber');
 }
-
+  // get f() { return this.trainingForm.controls; }
 
 submitForm(){
 
