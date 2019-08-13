@@ -27,7 +27,7 @@
                              </div>
                         </div>
                         <div class="col-sm-2">
-                            <button   (click)="getAppliedjob(latest)" [ngClass]="(latest.ButtonLabel=='Applied')?'my-class':'my-classdefault'" >{{latest.ButtonLabel}}</button>
+                            <button   (click)="getAppliedjob(latest)" [disabled]="latest.ButtonLabel=='Applied'" [ngClass]="(latest.ButtonLabel=='Applied')?'my-class':'my-classdefault'" >{{latest.ButtonLabel}}</button>
                         </div>
                          </div>
                 </div>
