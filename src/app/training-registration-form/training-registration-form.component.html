@@ -75,10 +75,10 @@
    
       <input type="phone" class="form-control" id="phone" placeholder="######"  formControlName= "phonenumber" autocomplete="off">
         <span class="text-danger" *ngIf="phonenumber.touched && phonenumber.invalid && phonenumber.errors.required">Please enter your phone number...</span>
-     
+     <span class="text-danger" *ngIf="phonenumber.touched && trainingForm.controls.phonenumber.invalid">Please check your number...</span>
     <!--<span class="text-danger" *ngIf="phonenumber.errors.maxlength.requiredLength ">Please check your number...</span>-->
     <!--<span class="text-danger" *ngIf="trainingForm.get('phonenumber').hasError('pattern')">Please check your number...</span>-->
-     <!--{{phonenumber.errors |json}}-->
+     {{phonenumber.errors |json}}
     </div>
   <button type="button"  [disabled]="trainingForm.invalid" class="btn btn-primary mx-auto d-block" (click)="submitForm()">Sign in</button>
 </form>

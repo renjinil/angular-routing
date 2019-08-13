@@ -1,0 +1,52 @@
+{
+  "projects": 
+    {
+      "id": 1,
+      "customername": "JHON DOE",
+      "Address": "796 Silver Harbout, TX 79273, US",
+      "email": "john@example.com",
+      "description": [
+        {
+          "index": "04",
+          "ischecked": false,
+          "name": "Youtube channel",
+          "about": "Useful videos to improve your Javascript skills.Subscribe and stay tuned:)",
+          "Hourprice": 0,
+          "Hours": 120
+        },
+        {
+          "index": "01",
+          "ischecked": false,
+          "name": "Website Design",
+          "about": "Creating a recognizable design based on the company's existing visual identity",
+          "Hourprice": 40,
+          "Hours": 30
+        },
+        {
+          "index": "02",
+          "ischecked": true,
+          "name": "Website Development",
+          "about": "Developing a Content management system based Website",
+          "Hourprice": 40,
+          "Hours": 80
+        },
+        {
+          "index": "03",
+          "ischecked": true,
+          "name": "Search Engines Optimization",
+          "about": "Optimize the site for search engines(SEO)",
+          "Hourprice": 30,
+          "Hours": 20
+        },
+        {
+          "index": "03",
+          "ischecked": false,
+          "name": "Search Engines Optimization",
+          "about": "Optimize the site for search engines(SEO)",
+          "Hourprice": 40,
+          "Hours": 20
+        }
+      ]
+    }
+  
+}

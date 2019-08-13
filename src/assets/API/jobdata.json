@@ -1,0 +1,406 @@
+{
+  "jobsection": [
+    {
+      "id": 1,
+      "depimgurl": "./assets/images/departments/accounting.png",
+      "department_name": "Accounting/Finance",
+      "vacancy": "1298",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "depimgurl": "./assets/images/departments/education.png",
+      "department_name": "Education/Training",
+      "vacancy": "76212",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "depimgurl": "./assets/images/departments/engineer.png",
+      "department_name": "Engineer/Architects",
+      "vacancy": "212",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "depimgurl": "./assets/images/departments/garments.png",
+      "department_name": "Garments/Textile",
+      "vacancy": "972",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "depimgurl": "./assets/images/departments/hr.png",
+      "department_name": "HR/Org.Development",
+      "vacancy": "1298",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "depimgurl": "./assets/images/departments/design.png",
+      "department_name": "Design/Creative",
+      "vacancy": "76212",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "depimgurl": "./assets/images/departments/research.png",
+      "department_name": "Reasearch/Consultancy",
+      "vacancy": "1298",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "depimgurl": "./assets/images/departments/medical.png",
+      "department_name": "Medical/Pharma",
+      "vacancy": "76212",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "depimgurl": "./assets/images/departments/music.png",
+      "department_name": "Music & Arts",
+      "vacancy": "212",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "depimgurl": "./assets/images/departments/marketing.png",
+      "department_name": "Marketing/Sales",
+      "vacancy": "1298",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "depimgurl": "./assets/images/departments/production.png",
+      "department_name": "production/Operation",
+      "vacancy": "124",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "depimgurl": "./assets/images/departments/miscellaneous.png",
+      "department_name": "miscellaneous",
+      "vacancy": "972",
+      "jobdescription": {
+        "title": "We are the measure of the digital world",
+        "ourmission": "We empower you with the insights you need to win your market.",
+        "ourcompany": [
+          {
+            "title": "Impact",
+            "description": "We are changing the way decisions are made. We provide insights that help businesses understand the digital world, their market and their competition. With our digital market intelligence businesses can put their own data into context and make real data-driven decisions."
+          },
+          {
+            "title": "Talent",
+            "description": "We bring together the industry’s brightest minds. We recruit only the most talented ambitious professionals who are eager to work hard, take chances and share ideas. Our passion, enthusiasm and drive for success are why we win together."
+          },
+          {
+            "title": "Opportunity",
+            "description": "We are the perfect place to grow. We are one of Business Insider’s 50 enterprise startups to bet your career on and have been named one of Inc.com’s 15 Israeli Startups to Watch in 2017.  We’re expanding our global team rapidly while taking pride in developing our people and promoting from within."
+          }
+        ]
+      }
+    }
+  ],
+  "latest_nav": [
+    "Hot Jobs",
+    "Recent jobs",
+    "PopularJobs"
+  ],
+  "latest_jobs": [
+    {
+      "id": 1,
+      "jobimg_url": "./assets/images/latest_jobs/dominos.png",
+      "job_post": "Project Manager",
+      "companyname": "Dominos Pizza",
+      "Place": "San Francisco, CA, US",
+      "time": "Full Time",
+      "salary": "$25,000 -  $35,000",
+      "tagged": "HR/Org.Developemnt",
+      "ButtonLabel": "Applied"
+    },
+    {
+      "id": 2,
+      "jobimg_url": "./assets/images/latest_jobs/aok.png",
+      "job_post": "Graphic Designer",
+      "companyname": "AOK Security",
+      "Place": "San Francisco, CA, US",
+      "time": "Full Time",
+      "salary": "$25,000 -  $35,000",
+      "tagged": "HR/Org.Developemnt",
+      "ButtonLabel": "Applied"
+    },
+    {
+      "id": 3,
+      "jobimg_url": "./assets/images/latest_jobs/voila.png",
+      "job_post": "CTO",
+      "companyname": "Voljia Events & Entertainment",
+      "Place": "San Francisco, CA, US",
+      "time": "Full Time",
+      "salary": "$25,000 -  $35,000",
+      "tagged": "HR/Org.Developemnt",
+      "ButtonLabel": "Applied"
+    },
+    {
+      "id": 4,
+      "jobimg_url": "./assets/images/latest_jobs/blue.png",
+      "job_post": "Human Resource Manager",
+      "companyname": "Dropbox Inc",
+      "Place": "San Francisco, CA, US",
+      "time": "Full Time",
+      "salary": "$25,000 -  $35,000",
+      "tagged": "HR/Org.Developemnt",
+      "ButtonLabel": "Applied"
+    }
+  ],
+  "workshop_training": [
+    {
+      "workshop_img": "./assets/images/workshop.png",
+      "course_name": "Buissness Process Manageemnt Training",
+      "course_duration": "3 Month (Sat, Mon, Fri)",
+      "course_instructor": "Kim Jon Ley",
+      "course_amount": "$200"
+    },
+    {
+      "workshop_img": "./assets/images/employee.png",
+      "course_name": "Employee Motivation and Engagement Training",
+      "course_duration": "3 Month (Sat, Mon, Fri)",
+      "course_instructor": "Kim Jon Ley",
+      "course_amount": "$200"
+    }
+  ],
+  "training_user": [
+    {
+      "firstname": "renjini",
+      "lastname": "L",
+      "skills": "Html",
+      "company": "Cognizant",
+      "address": {
+        "address": "Cognizant",
+        "city": "kakkanad",
+        "postal": "691551"
+      },
+      "training_location": "Kochi",
+      "email": "test@gmail.com",
+      "phonenumber": "1234567890",
+      "id": 1
+    },
+    {
+      "firstname": "Sreejith",
+      "lastname": "S",
+      "skills": "Dotnet",
+      "company": "Infosys",
+      "address": {
+        "address": "Infosys",
+        "city": "Trivandrum",
+        "postal": "691554"
+      },
+      "training_location": "Kochi",
+      "email": "sree@gmail.com",
+      "phonenumber": "1234567890",
+      "id": 2
+    },
+    {
+      "firstname": "renji",
+      "lastname": "sree",
+      "skills": "html",
+      "company": "Cognizant",
+      "address": {
+        "address": "123street",
+        "city": "kochi",
+        "postal": "234567"
+      },
+      "training_location": "Kochi",
+      "email": "reanji@gmail.com",
+      "phonenumber": "1234567890",
+      "id": 3
+    }
+  ]
+}

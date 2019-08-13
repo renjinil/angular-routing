@@ -37,8 +37,9 @@ trainingForm=this.fb.group({
      Validators.email
     ]],
   phonenumber:['',[
-    Validators.required 
-    // Validators.maxLength(10),
+    Validators.required,
+    Validators.minLength(6),
+        Validators.maxLength(10)
     // Validators.pattern(/^[6-9]\d{9}$/)
     ]]
 });
