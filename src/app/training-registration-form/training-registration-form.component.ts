@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormGroup,FormBuilder,Validators} from '@angular/forms';
 import { JobdataService } from '../jobdata.service';
+import {phoneNumberValidator } from '../validators';
 
 @Component({
   selector: 'app-training-registration-form',
@@ -38,9 +39,10 @@ trainingForm=this.fb.group({
     ]],
   phonenumber:['',[
     Validators.required,
+    // phoneNumberValidator
     Validators.minLength(6),
         Validators.maxLength(10)
-    // Validators.pattern(/^[6-9]\d{9}$/)
+    //  Validators.pattern(/^[6-9]\d{9}$/)
     ]]
 });
  get firstname() {
@@ -73,7 +75,7 @@ trainingForm=this.fb.group({
   // get f() { return this.trainingForm.controls; }
 
 submitForm(){
-
+// console.log(this.trainingForm.controls);
   this.data.addTrainingUser(this.trainingForm.value).subscribe(response=>{
   }) 
     // this.data.getTrainingUser().subscribe(response=>{
