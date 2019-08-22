@@ -9,6 +9,11 @@ export class JobdataService {
 
   constructor(private http:HttpClient) { }
  
+ private user = new BehaviorSubject<string>('User');
+ cast =this.user.asObservable();
+ editName(name){
+   this.user.next(name);
+ }
   getjobsection(){
     return this.http.get('http://localhost:4000/jobsection');
   }

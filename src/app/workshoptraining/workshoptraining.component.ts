@@ -8,12 +8,15 @@ import { JobdataService } from '../jobdata.service';
 })
 export class WorkshoptrainingComponent implements OnInit {
 workshopTrainingData:any=[];
+observ:string;
   constructor(private jobdata:JobdataService) { }
 
   ngOnInit() {
     this.jobdata.getworkshoptraining().subscribe(response=>{
       this.workshopTrainingData=response;
     })
+    // console.log( this.jobdata);
+    this.jobdata.cast.subscribe(user=>this.observ =user);
   }
 
 }

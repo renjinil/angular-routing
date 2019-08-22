@@ -13,6 +13,21 @@ import { HotjobComponent } from './hotjob/hotjob.component';
 import { RecentjobsComponent } from './recentjobs/recentjobs.component';
 import { ApplyjobInputComponent } from './applyjob-input/applyjob-input.component';
 import { TrainingRegistrationFormComponent } from './training-registration-form/training-registration-form.component';
+import { LoginComponent } from './login/login.component';
+import { SocialLoginModule, AuthServiceConfig } from "angularx-social-login";
+import { GoogleLoginProvider, FacebookLoginProvider } from "angularx-social-login";
+
+ 
+let config = new AuthServiceConfig([
+  {
+    id: FacebookLoginProvider.PROVIDER_ID,
+    provider: new FacebookLoginProvider("483732249087363")
+  }
+]);
+ 
+export function provideConfig() {
+  return config;
+}
 
 @NgModule({
   declarations: [
@@ -24,16 +39,23 @@ import { TrainingRegistrationFormComponent } from './training-registration-form/
     HotjobComponent,
     RecentjobsComponent,
     ApplyjobInputComponent,
-    TrainingRegistrationFormComponent
+    TrainingRegistrationFormComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SocialLoginModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: AuthServiceConfig,
+      useFactory: provideConfig
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

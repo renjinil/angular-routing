@@ -1,6 +1,6 @@
 
 import {AbstractControl} from '@angular/forms';
-// import RegExp from "typescript-dotnet-commonjs/System/Text/RegularExpressions";
+// import {RegExp} from "typescript-dotnet-commonjs/System/Text/RegularExpressions";
 
 export function phoneNumberValidator(control : AbstractControl){
     

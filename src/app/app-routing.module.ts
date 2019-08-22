@@ -8,9 +8,11 @@ import { HotjobComponent } from './hotjob/hotjob.component';
 import { RecentjobsComponent } from './recentjobs/recentjobs.component';
 import { ApplyjobInputComponent } from './applyjob-input/applyjob-input.component';
 import { TrainingRegistrationFormComponent } from './training-registration-form/training-registration-form.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
+  {path:'login',component:LoginComponent},
+  {path:'',component:LoginComponent},
    {path:'home',component:HomeComponent},
   {path:'latestjob',component:LatestjobsComponent,
     children:[
