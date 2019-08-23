@@ -16,6 +16,8 @@ import { TrainingRegistrationFormComponent } from './training-registration-form/
 import { LoginComponent } from './login/login.component';
 import { SocialLoginModule, AuthServiceConfig } from "angularx-social-login";
 import { GoogleLoginProvider, FacebookLoginProvider } from "angularx-social-login";
+import { AuthGuard } from './auth.guard';
+import { AuthService } from 'angularx-social-login';
 
  
 let config = new AuthServiceConfig([
@@ -53,8 +55,10 @@ export function provideConfig() {
   providers: [
     {
       provide: AuthServiceConfig,
-      useFactory: provideConfig
-    }
+      useFactory: provideConfig,
+    },
+   AuthGuard,
+    AuthService
   ],
   bootstrap: [AppComponent]
 })

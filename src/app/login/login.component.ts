@@ -19,6 +19,7 @@ user: SocialUser;
       console.log(user);
       this.user = user;
       if(user){
+        this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
       this.route.navigate(['/home'])
       }
     });
